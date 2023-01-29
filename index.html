@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Geco-Shop</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="container flex">
+            <div class="navbar-content flex">
+                <ul class="flex left">
+                    <li class="drop-down-item">
+                        <a href="#">home</a> 
+                        <ul class="drop-down-list">
+                            <li><a href="#">home-1</a></li>
+                            <li><a href="#">home-2</a></li>
+                            <li><a href="#">home-3</a></li>
+                            <li><a href="#">home-4</a></li>
+                            <li><a href="#">home-5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">overview</a></li>
+                    <li><a href="#">community</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="./assets/images/nav-logo.png" alt="">
+                </div>
+                <ul class="flex right">
+                    <li class="drop-down-item">
+                        <a href="#">pages</a>
+                        <ul class="drop-down-list">
+                            <li><a href="#">upcoming games</a></li>
+                            <li><a href="#">game single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">store</a></li>
+                    <li class="drop-down-item">
+                        <a href="#">blog</a>
+                        <ul class="drop-down-list">
+                            <li><a href="#">news pages</a></li>
+                            <li><a href="#">news details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="sm-nav-logo">
+                <img src="./assets/images/geco-logo.png" alt="">
+            </div>
+            <div class="sm-nav-content" id="smNav">
+                <ul>
+                    <li class="sm-drop-nav-item">
+                        <a href="#">home
+                            <a class="expand" href="#">+</a>
+                            <ul class="sm-drop-down-list">
+                                <li>
+                                    <a href="#">home-1</a>
+                                    <a href="#">home-2</a>
+                                    <a href="#">home-3</a>
+                                    <a href="#">home-4</a>
+                                    <a href="#">home-5</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">overview</a></li>
+                    <li><a href="#">community</a></li>
+                    <li class="sm-drop-nav">
+                        <a href="#">pages
+                            <a class="expand" href="#">+</a>
+                            <ul class="sm-drop-down-list">
+                                <li>
+                                    <a href="#">upcoming games</a>
+                                    <a href="#">game single</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="#">store</a></li>
+                    <li class="sm-drop-nav">
+                        <a href="#">blog
+                            <a class="expand" href="#">+</a>
+                            <ul class="sm-drop-down-list">
+                                <li>
+                                    <a href="#">news pages</a>
+                                    <a href="#">news details</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search flex">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-search'></i>
+                        </a>
+                    </li>
+                </ul>
+                <a class="sm-nav-btn" id="sm-nav-btn" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero new-section">
+        <div class="container flex">
+            <div class="hero-content ">
+                <h2>
+                    streamer Items 
+                    <br>
+                    <strong>for <span id="span">$49_</span></strong>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut labore et dolore magna.</p>
+                <a class="btn" href="#">buy Now</a>
+            </div>
+            <div class="hero-img container">
+                <img src="./assets/images/chair-hero01.png" alt="" id="hero-img">
+                <ul class="colors">
+                    <li><button onclick="greenClr()" class="green" id="green"></button></li>
+                    <li><button onclick="redClr()" class="red" id="red"></button></li>
+                    <li><button onclick="blueClr()" class="blue" id="blue"></button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories new-section">
+        <div class="container">
+            <div class="cards-container flex">
+                <div class="card-container">
+                    <div class="card-img">
+                        <img src="./assets/images/card-01.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>Latest Collection</h4>
+                        <p>Lorem ipsum dolor sitjst amet consetur adipisng</p>
+                        <a class="btn" href="#">buy now</a>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-img">
+                        <img src="./assets/images/card-02.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>Best Selling Items</h4>
+                        <p>Lorem ipsum dolor sitjst amet consetur adipisng</p>
+                        <a class="btn" href="#">buy now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="properties">
+        <div class="container flex">
+            <div class="properties-container">
+                <div class="chair-title">
+                    <h2 class="title">
+                        Makes Gaming 
+                        <span>Chair</span>
+                    </h2>
+                    <p class="section-line">
+                        Compete with 100 player on a remote island for winner
+                        known where certain strategic.</p>
+                </div>
+                <div class="chair-properties">
+                    <ul>
+                        <li>
+                            <div class="prop-icon">
+                                <img src="./assets/images/property01.png" alt="">
+                            </div>
+                            <div class="prop-content">
+                                <h2>Leather & Ergonomic</h2>
+                                <p>See how well critics rating new video game release players</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="prop-icon">
+                                <img src="./assets/images/property02.png" alt="">
+                            </div>
+                            <div class="prop-content">
+                                <h2>200 kg Heavy Load</h2>
+                                <p>See how well critics rating new video game release players</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="prop-icon">
+                                <img src="./assets/images/property03.png" alt="">
+                            </div>
+                            <div class="prop-content">
+                                <h2>Multi scene use</h2>
+                                <p>See how well critics rating new video game release players</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chair-img">
+                <div>
+                <img class="main-img" src="./assets/images/chair03.png" id="slider" alt="">
+                </div>
+                <img src="./assets/images/chair_zoom03.png" id="chair-zoom" alt="">
+                <img src="./assets/images/chair_chart.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="best-chairs new-section">
+        <div class="container">
+            <div class="head">
+                <h2 class="title section-line">SHOP BEST gaming chair EQUIPMENT</h2>
+            </div>
+            <div class="img-cards flex">
+                <div class="img-card-container">
+                    <div class="img-card">
+                        <img src="./assets/images/gaming_chair01.jpg" alt="">
+                        <a href="#">
+                            add to card
+                            <i class='bx bx-shopping-bag'></i>
+                        </a>
+                    </div>
+                    <div class="img-content">
+                        <div class="main-content flex">
+                            <div class="card-name">
+                                <span>gaming chair</span>
+                                <h5 class="title">
+                                    Antonob DT-R7
+                                </h5>
+                            </div>
+                            <div class="card-salary">
+                                <h5 class="title">$29.00</h5>
+                            </div>
+                        </div>
+                        <div class="card-rating flex">
+                                <div class="stars">
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                </div>
+                                <div class="love">
+                                    <i class='bx bx-heart' ></i>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="img-card-container">
+                    <div class="img-card">
+                        <img src="./assets/images/gaming_chair02.jpg" alt="">
+                        <a href="#">
+                            add to card
+                            <i class='bx bx-shopping-bag'></i>
+                        </a>
+                    </div>
+                    <div class="img-content">
+                        <div class="main-content flex">
+                            <div class="card-name">
+                                <span>gaming chair</span>
+                                <h5 class="title">
+                                    Antonob DT-R7
+                                </h5>
+                            </div>
+                            <div class="card-salary">
+                                <h5 class="title">$29.00</h5>
+                            </div>
+                        </div>
+                        <div class="card-rating flex">
+                                <div class="stars">
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                </div>
+                                <div class="love">
+                                    <i class='bx bx-heart' ></i>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="img-card-container">
+                    <div class="img-card">
+                        <img src="./assets/images/gaming_chair03.jpg" alt="">
+                        <a href="#">
+                            add to card
+                            <i class='bx bx-shopping-bag'></i>
+                        </a>
+                    </div>
+                    <div class="img-content">
+                        <div class="main-content flex">
+                            <div class="card-name">
+                                <span>gaming chair</span>
+                                <h5 class="title">
+                                    Antonob DT-R7
+                                </h5>
+                            </div>
+                            <div class="card-salary">
+                                <h5 class="title">$29.00</h5>
+                            </div>
+                        </div>
+                        <div class="card-rating flex">
+                                <div class="stars">
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                    <i class='bx bx-star'></i>
+                                </div>
+                                <div class="love">
+                                    <i class='bx bx-heart' ></i>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="competition new-section">
+        <div class="container flex">
+            <div class="competition-content">
+                <h2 class="title">
+                    themebey<span>ond</span>
+                </h2>
+                <div class="inner-content">
+                    <h2 class="title">skyward sword</h2>
+                    <h6>themebeyond</h6>
+                    <p>
+                        The Legend of Zelda: Skyward Sword is an action-adventure game developed and published by Nintendo for the Wii. The six
+                        teenth mainline entry in The Legend of Zelda series.
+                    </p>
+                </div>
+                <a href="#" class="btn">buy now</a>
+            </div>
+            <div class="competition-img">
+                <img src="./assets/images/competition_about_img.png" alt="">
+            </div>
+        </div>
+        <div class="info-container container">
+            <div class="header">
+                <h2 class="title section-line">see my information</h2>
+            </div>
+            <div class="information container flex">
+                <div class="info-card">
+                    <div class="info-header">
+                        <h6 class="title">award winning</h6>
+                        <img src="./assets/images/chair_info_hover.png" alt="">
+                    </div>
+                    <div class="info-body">
+                        <div class="body-img">
+                            <img src="./assets/images/chair_award.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-header">
+                        <h6 class="title">award winning</h6>
+                        <img src="./assets/images/chair_info_hover.png" alt="">
+                    </div>
+                    <div class="info-body">
+                        <div class="body-img">
+                            <ul class="flex">
+                                <li><a href="#"><i class='bx bxl-steam' ></i> STEAM</a></li>
+                                <li><a href="#"><i class='bx bxl-facebook-square'></i> Facebook</a></li>
+                                <li><a href="#"><i class='bx bxl-twitter' ></i> Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-header">
+                        <h6 class="title">award winning</h6>
+                        <img src="./assets/images/chair_info_hover.png" alt="">
+                    </div>
+                    <div class="info-body">
+                        <div class="body-img">
+                            <img src="./assets/images/clan_logo.png" alt="">
+                        </div>
+                        <div class="body-content">
+                            <h4>
+                                <span>75+</span> members
+                            </h4>
+                            <span>active Members</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </section>
+
+    <section class="matches">
+        <div class="container">
+            <div class="match-card">
+                <img src="./assets/images/my_match_box.png" alt="">
+                <ul class="flex">
+                    <li>
+                        <div class="clan-container flex">
+                            <img src="./assets/images/my_match_clan01.png" alt="">
+                            <img src="./assets/images/match_vs.png" alt="">
+                            <img src="./assets/images/my_match_clan02.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-info">
+                            <a href="#">live matches</a>
+                            <h5>skyward sword</h5>
+                            <span>10th Mar 2020.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-stream">
+                            <a class=" flex" href="#">
+                                <i class='bx bx-podcast'></i>
+                                watch stream
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="match-card">
+                <img src="./assets/images/my_match_box.png" alt="">
+                <ul class="flex">
+                    <li>
+                        <div class="clan-container flex">
+                            <img src="./assets/images/my_match_clan03.png" alt="">
+                            <img src="./assets/images/match_vs.png" alt="">
+                            <img src="./assets/images/my_match_clan04.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-info">
+                            <a href="#">live matches</a>
+                            <h5>Call Of Duty Mascot</h5>
+                            <span>10th Mar 2020.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-stream">
+                            <a class=" flex" href="#">
+                                <i class='bx bx-podcast'></i>
+                                watch stream
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="match-card">
+                <img src="./assets/images/my_match_box.png" alt="">
+                <ul class="flex">
+                    <li>
+                        <div class="clan-container flex">
+                            <img src="./assets/images/my_match_clan05.png" alt="">
+                            <img src="./assets/images/match_vs.png" alt="">
+                            <img src="./assets/images/my_match_clan01.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-info">
+                            <a href="#">live matches</a>
+                            <h5>Counter Strike Mascot</h5>
+                            <span>10th Mar 2020.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clan-stream">
+                            <a class=" flex" href="#">
+                                <i class='bx bx-podcast'></i>
+                                watch stream
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container flex">
+            <div class="about-img">
+                <img src="./assets/images/chair_discount_img.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="title">
+                    about the
+                    <span>geco</span>
+                </h2>
+                <p>
+                    Amet nisl purus in mollis nunc sed id. Commodo nulla
+                    facilisi nullam vehicula ipsum a arcu cursus. 
+                    Volutpat ac tincidunt vitae semper. Pellentesque diam volutpat 
+                    commodo sed egestas egestas fringilla phasellus faucibus. Ante metus 
+                    dictum at tempor fames ac 
+                </p>
+                <a class="btn" href="#">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="brands">
+        <div class="container flex">
+            <img src="./assets/images/brand_item01.png" alt="">
+            <img src="./assets/images/brand_item02.png" alt="">
+            <img src="./assets/images/brand_item03.png" alt="">
+            <img src="./assets/images/brand_item04.png" alt="">
+            <img src="./assets/images/brand_item05.png" alt="">
+            <img src="./assets/images/brand_item06.png" alt="">   
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+            <div class="footer-titles">
+                <ul class="flex">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <form action="get">
+                    <input type="text" placeholder="Subscribe to our newsletter">
+                </form>
+                <div class="connect">
+                    <a href="#"><i class='bx bxl-facebook-square'></i></a>    
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-twitch' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

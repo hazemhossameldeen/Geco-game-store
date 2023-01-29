@@ -1,0 +1,489 @@
+@media(min-width:1200px){
+    /* Nav - Start */
+    .navbar-content>ul>li{
+        margin-left: 40px;
+    }
+    div.logo>img{
+        width: 100%;
+    }
+    .navbar-content{
+        display: block;
+        width: 100%;
+    }
+    .sm-nav-logo{
+        display: none;
+    }
+    .sm-nav-btn{
+        display: none;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-content>h2{
+        font-size: 85px;
+    }
+    .hero-content strong {
+        font-size: 70px;
+    }
+    .hero-img::before{
+        width: 590px;
+    }
+    .hero-img::after{
+        width: 505px;
+    }
+    /* Hero - End */
+
+    /* Competition - Start */
+    .info-card{
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .info-body{
+        padding: 25px 10px !important;
+    }
+    /* Competition - End */
+}
+
+@media(min-width:1024px) and (max-width:1200px){
+    /* Nav - Start */
+    .navbar-content>ul>li{
+        margin-left: 30px;
+    }
+    div.logo>img{
+        width: 195px;
+    }
+    .navbar-content{
+        display: block;
+        width: 100%;
+    }
+    .sm-nav-logo{
+        display: none;
+    }
+    .sm-nav-btn{
+        display: none;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-content>h2{
+        font-size: 75px;
+    }
+    .hero-content strong {
+        font-size: 70px;
+    }
+    .hero-img::before{
+        width: 550px;
+    }
+    .hero-img::after{
+        width: 460px;
+    }
+    .colors{
+        display: none;
+    }
+    /* Hero - End */
+
+    /* Categories - Start */
+    .card-container{
+        margin: 0 5px !important;
+    }
+    .card-content{
+        top: 15% !important;
+    }
+    .card-content>h4{
+        font-size: 25px !important;
+    }
+    /* Categories - End */
+
+    /* Properties - Start */
+    .chair-img>img:nth-child(2) , .chair-img>img:nth-child(3){
+        display: none !important;
+    }
+    .properties::before ,.properties::after{
+        left: 52% !important;
+    }
+    /* Properties - End */
+
+    /* Best chairs - Start */
+    .img-card-container{
+        margin: 0 15px;
+    }
+    /* Best chairs - End */
+
+    /* Competition - Start */
+    .information{
+        flex-wrap: wrap;
+    }
+    .info-card{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .info-body{
+        padding: 25px 30px !important;
+    }
+    .match-card ul{
+        top: 25% !important;
+    }
+    .match-card li:nth-child(1) , .match-card li:nth-child(2) , .match-card li:nth-child(3){
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+    .clan-container{
+        justify-content: flex-start !important;
+    }
+    .match-card{
+        margin: -30px 0 !important;
+    }
+    /* Competition - End */
+}
+@media(min-width:768px) and (max-width:1023px){
+    /* Nav - Start */
+    .navbar-content{
+        display: none !important;
+    }
+    nav>div{
+        justify-content: space-between;
+    }
+    .sm-nav-logo{
+        display: block;
+    }
+    .sm-nav-btn{
+        display: block;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero>div{
+        flex-direction: column !important;
+    }
+    .hero-content{
+        width: 100% !important;
+        text-align: center;
+        margin: 100px 0;
+    }
+    .hero-content>h2{
+        font-size: 75px;
+    }
+    .hero-content strong {
+        font-size: 70px;
+    }
+    .hero-content p{
+        margin: 7px auto;
+    }
+    .hero-img::before{
+        width: 590px;
+    }
+    .hero-img::after{
+        width: 505px;
+    }
+    .colors{
+        display: none;
+    }
+    /* Hero - End */
+
+    /* Categories - Start */
+    .cards-container{
+        flex-direction: column;
+    }
+    .card-container{
+        margin: 30px auto !important;
+    }
+    /* Categories - End */
+
+    /* Properties - Start */
+    .properties{
+        padding: 110px 0;
+    }
+    .properties::before ,.properties::after{
+        display: none !important;
+    }
+    .chair-img{
+        display: none !important;
+    }
+    .chair-properties>ul>li {
+        margin-bottom: 70px !important;
+    }
+    /* Properties - End */
+
+    /* Best chairs - Start */
+    .img-card-container{
+        margin: 0 15px;
+    }
+    /* Best chairs - End */
+
+    /* Competition - Start */
+    .competition>div{
+        flex-direction: column-reverse;
+    }
+    .competition-content , .competition-img{
+        max-width: 100% !important;
+    }
+    .information{
+        flex-wrap: wrap;
+    }
+    .info-card{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .info-body{
+        padding: 25px 10px !important;
+    }
+    .body-img a{
+        padding: 10px 5px !important;
+    }
+    .body-img>img{
+        max-width: 100%;
+    }
+    .matches>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .match-card>img{
+        display: none;
+    }
+    .match-card{
+        max-width: 60%;
+        background-color: rgba(42, 40, 49, 0.49);
+        box-shadow: 0px 3px 43px 0px rgb(15 14 13 / 68%);
+        padding: 30px 20px;
+        margin: 20px auto !important;
+    }
+    .match-card ul{
+        position: relative !important;
+        display: block;
+        left: 0 !important;
+    }
+    .match-card li{
+        margin-bottom: 30px;
+    }
+    .clan-stream>a{
+        justify-content: center;
+    }
+    /* Competition - End */
+
+    /* Footer - Start */
+    .footer-form>form>input{
+        padding: 8px 10px !important;
+    }
+    /* Footer - End */
+}
+@media(min-width:320px) and (max-width:767px){
+    /* Nav - Start */
+    .navbar-content{
+        display: none !important;
+    }
+    nav>div{
+        justify-content: space-between;
+    }
+    .sm-nav-logo{
+        display: block;
+    }
+    .sm-nav-btn{
+        display: block;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero>div{
+        flex-direction: column !important;
+    }
+    .hero-content{
+        width: 100% !important;
+        text-align: center;
+        margin: 100px 0;
+    }
+    .hero-content>h2{
+        font-size: 50px;
+    }
+    .hero-content strong {
+        font-size: 45px;
+    }
+    .hero-content p{
+        font-size: 10px !important;
+        width: 100% !important;
+        margin: 7px auto;
+    }
+    .colors{
+        display: none;
+    }
+    /* Hero - End */
+
+    /* Categories - Start */
+    .cards-container{
+        flex-direction: column;
+    }
+    .card-container{
+        margin: 30px auto !important;
+    }
+    .card-content>h4 {
+        font-size: 15px !important;
+    }
+    .card-content p{
+        display: none;
+    }
+    .card-content a{
+        margin: 0 5px;
+        padding: 5px 5px;
+    }
+    .card-content a::after, .card-content a::before{
+        display: none;
+    }
+    /* Categories - End */
+
+    /* Properties - Start */
+    .properties{
+        padding: 110px 0;
+    }
+    .properties-container{
+        text-align: center;
+    }
+    .properties::before ,.properties::after{
+        display: none !important;
+    }
+    .prop-icon {
+        float: none !important;
+        margin: 10px auto !important;
+    }
+    .chair-title>p {
+        padding: 0 !important;
+    }
+    .chair-title>p::after{
+        right: 0 !important;
+    }
+    .chair-img{
+        display: none !important;
+    }
+    .chair-properties>ul>li {
+        padding: 0 !important;
+        margin: 30px 0 !important;
+    }
+    /* Properties - End */
+
+    /* Best chairs - Start */
+    .img-cards{
+        flex-direction: column;
+    }
+    .img-card-container{
+        margin: 10px 0;
+    }
+    .head>h2{
+        font-size: 30px !important;
+        width: 100% !important;
+        margin-bottom: 20% !important;
+    }
+    .head>h2.title::after{
+        bottom: -15% !important;
+    }
+    /* Best chairs - End */
+
+    /* Competition - Start */
+    .competition>div{
+        flex-direction: column-reverse;
+    }
+    .competition-content , .competition-img{
+        max-width: 100% !important;
+        text-align: center;
+    }
+    .competition-content>h2 {
+        font-size: 30px !important;
+    }
+    .inner-content{
+        text-align: left !important;
+    }
+    .inner-content>p {
+        padding: 0 !important;
+    }
+    .information{
+        flex-wrap: wrap;
+        padding: 0 !important;
+    }
+    .header>h2{
+        width: 100% !important;
+    }
+    .info-card{
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-height: 150px !important;
+    }
+    .info-body{
+        padding: 25px 10px !important;
+    }
+    .body-img>ul{
+        flex-direction: column;
+    }
+    .body-img li{
+        margin: 10px 0 !important;
+    }
+    .body-img>img{
+        max-width: 100%;
+    }
+    .matches>div{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5px;
+    }
+    .match-card>img{
+        display: none;
+    }
+    .match-card{
+        max-width: 60%;
+        background-color: rgba(42, 40, 49, 0.49);
+        box-shadow: 0px 3px 43px 0px rgb(15 14 13 / 68%);
+        padding: 30px 60px;
+        margin: 20px auto !important;
+    }
+    .match-card ul{
+        position: relative !important;
+        display: block;
+        left: 0 !important;
+    }
+    .match-card li{
+        margin-bottom: 30px;
+    }
+    .clan-stream>a{
+        justify-content: center;
+    }
+    .match-card li:nth-child(1) , .match-card li:nth-child(2) , .match-card li:nth-child(3){
+        width: 100% !important;
+        flex: 0 0 10% !important;
+    }
+    /* Competition - End */
+
+    /* About - Start */
+    .about>div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img , .about-content{
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+    .about-content p{
+        padding-right: 0 !important;
+    }
+    /* About - End */
+
+    /* Brands - Start */
+    .brands>div{
+        display: none;
+    }
+    /* Brands - End */
+
+    /* Footer - Start */
+    .footer-form>form>input{
+        padding: 8px 10px !important;
+    }
+    .right , .left , .footer-titles ul::after{
+        display: none;
+    }
+    
+    .footer-titles ul{
+        justify-content: center !important;
+    }
+    .footer-titles li{
+        padding: 27px 0 0 !important;
+    }
+    .footer-titles a{
+        padding: 30px 15px !important;
+    }
+    /* Footer - End */
+}
